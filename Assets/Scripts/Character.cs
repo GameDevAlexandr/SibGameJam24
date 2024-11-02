@@ -17,6 +17,11 @@ public abstract class Character : MonoBehaviour
     protected bool _isMove;
     protected bool _isAttack;
     private float _attackDelay;
+
+    private void Start()
+    {
+        _currHealth = _health;
+    }
     public virtual void TakeDamage(int damage)
     {
         _currHealth -= damage;
