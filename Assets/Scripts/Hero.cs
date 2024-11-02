@@ -13,20 +13,28 @@ public class Hero : Character
     override protected void Tic()
     {
         var enm = eBase.NearEnemy(transform.position);
-        if (!_isMove && !_isAttack && enm!= null)
+        if (_enemy != enm)
         {
-            Move(enm.transform);
-            if (Vector2.Distance(_enemy.transform.position, transform.position) <= _attackDistance)
-            {
-                _isAttack = true;
-                _isMove = false;
+            _enemy = enm;
+            Move(_enemy.transform);
+        }
+        if (_isMove && !_isAttack && enm!= null)
+        {
+            if (Mathf.Abs(Vector2.Distance(_enemy.transform.position, transform.position)) <= _attackDistance)
+            {                
+                StartAttack();
             }
         }
     }
 
     protected override void Attack()
     {
-        _enemy?.TakeDamage(_damage);
+        if(!_enemy.isDestroyed)
+        _enemy.TakeDamage(_damage);
+        if (_enemy.isDestroyed)
+        {
+            _isAttack = false;
+        }
     }
 
     protected override void Death()

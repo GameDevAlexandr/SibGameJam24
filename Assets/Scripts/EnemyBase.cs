@@ -15,6 +15,7 @@ public class EnemyBase : MonoBehaviour
     public void RemoveEnemy(Enemy enemy)
     {
         _enemies.Remove(enemy);
+        Destroy(this);
         Destroy(enemy.gameObject);
     }
     public Enemy NearEnemy(Vector2 target)

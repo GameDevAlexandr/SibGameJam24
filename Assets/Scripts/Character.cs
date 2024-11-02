@@ -20,6 +20,7 @@ public abstract class Character : MonoBehaviour
     public virtual void TakeDamage(int damage)
     {
         _currHealth -= damage;
+        _healthBar.fillAmount = (float)_currHealth / _health;
         if (_currHealth <= 0)
         {
             Death();
@@ -53,6 +54,7 @@ public abstract class Character : MonoBehaviour
     protected abstract void Attack();
     protected void StartAttack()
     {
+        _isMove = false;
         _isAttack = true;
         _attackDelay = 1f / _atkSpeed;
     }
