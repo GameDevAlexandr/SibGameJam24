@@ -17,6 +17,7 @@ public class Enemy : Character
     protected override void Death()
     {
         isDestroyed = true;
+        DropManager.Droper.DropItem(true, transform.position);
         eBase.RemoveEnemy(this);
     }
 

@@ -17,6 +17,9 @@ public abstract class Character : MonoBehaviour
     protected bool _isMove;
     protected bool _isAttack;
     private float _attackDelay;
+    private int _armour;
+    private int _wStrengrt;
+    private int _aStrenght;
 
     private void Start()
     {
@@ -24,8 +27,10 @@ public abstract class Character : MonoBehaviour
     }
     public virtual void TakeDamage(int damage)
     {
+        damage = (int)(damage * ((float)damage / (damage + _armour)));
         _currHealth -= damage;
         _healthBar.fillAmount = (float)_currHealth / _health;
+        _aStrenght = Mathf.Max(0, _aStrenght - damage);
         if (_currHealth <= 0)
         {
             Death();
@@ -66,4 +71,15 @@ public abstract class Character : MonoBehaviour
     protected abstract void Tic();
     protected abstract void Death();
 
+    private void EraseArmour(int count)
+    {
+        if (_aStrenght > 0)
+        {
+            _aStrenght -= count;
+        }
+    }
+    public void SetDrop(DropItem item)
+    {
+
+    }
 }
