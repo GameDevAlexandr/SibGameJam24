@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52cf88d874b9103418c4d3f2b1b89598, type: 3}
+  m_Name: 13_Potion
+  m_EditorClassIdentifier: 
+  <Index>k__BackingField: 13
+  <Type>k__BackingField: 2
+  <Power>k__BackingField: 10
+  <Icon>k__BackingField: {fileID: -713819925, guid: 11ef0900c59633147af7b2454954212e, type: 3}
+  <Back>k__BackingField: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  <Name>k__BackingField: 
+  <Description>k__BackingField: 
+  <IsMergin>k__BackingField: 1
+  <NextItem>k__BackingField: {fileID: 11400000, guid: 963c78202e3084f4590e859899ddab22, type: 2}

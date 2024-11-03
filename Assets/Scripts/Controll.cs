@@ -6,7 +6,8 @@ using UnityEngine.Events;
 public class Controll : MonoBehaviour
 {
     public static Controll control { get; private set; }
-    public UnityEvent<Vector2> direction = new UnityEvent<Vector2>(); 
+    public UnityEvent<Vector2> direction = new UnityEvent<Vector2>();
+    public UnityEvent interact = new UnityEvent();
     private void Awake()
     {
         if(control == null)
@@ -26,6 +27,10 @@ public class Controll : MonoBehaviour
         if (x!=0 || y != 0)
         {
             direction.Invoke(new Vector2(x, y)*Time.deltaTime);
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            interact.Invoke();
         }
     }
 }
