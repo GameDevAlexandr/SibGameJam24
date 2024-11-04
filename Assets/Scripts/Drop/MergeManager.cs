@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class MergeManager : MonoBehaviour
@@ -13,7 +14,9 @@ public class MergeManager : MonoBehaviour
     private void Awake()
     {
         Items = new List<MergeItems>();
-        Debug.Log("size " + _panelArea.sizeDelta);
+        Vector2 sz = _panelArea.rect.size;
+        sz = new Vector2(sz.x * _panelArea.localScale.x, sz.y * _panelArea.localScale.y);
+        Debug.Log("size " + sz);
         _dropBounds = new Bounds(_panelArea.position, _panelArea.sizeDelta);
     }
 
@@ -25,7 +28,7 @@ public class MergeManager : MonoBehaviour
     }
     public bool DropItem(MergeItems item, Vector2 pos)
     {
-        if (!_dropBounds.Contains(pos))
+        if (!EventSystem.current.IsPointerOverGameObject())
         {
             DropManager.Droper.DropItem(item.Item);
             RemoveItem(item);

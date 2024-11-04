@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000016198E30DA8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001F9DF0524F8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -22,41 +22,266 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000016198E9A0A8, queue head = 000001619A4815A8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016198E9A0A8
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Music.bank', mode=0x02010082
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F994C76958, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F994C76958
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3026816
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 2848
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016192A401C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D2CDCB0
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='GameJam_Silly_Variations', format=5, channels=2, frequency=48000, lengthbytes=3024928, lengthpcm=10518260, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.717839.
+[LOG] SystemI::createSound                     :     filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 000001F994C76298, queue head = 000001F995D47D38, queue count = 0
+[LOG] SystemI::createSound                     :     filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 000001F994C75D88, queue head = 000001F995D47D38, queue count = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='PortalLayerHits10', format=5, channels=2, frequency=48000, lengthbytes=12448, lengthpcm=48000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.471307.
 [LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016198E9A0A8
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Music.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000016198E9A5B8, queue head = 000001619A4815A8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016198E9A5B8
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Music.bank', mode=0x02010082
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F994C76958
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F994C76298
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3026816
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 2848
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000016192A3FCC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D2CDF30
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='GameJam_Silly_Variations', format=5, channels=2, frequency=48000, lengthbytes=3024928, lengthpcm=10518260, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.717839.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016198E9A5B8
-[LOG] SoundI::release                          : GameJam_Silly_Variations (0000016198E9A0A8)
-[LOG] SoundI::release                          :     GameJam_Silly_Variations (000001610BC2B898)
-[LOG] SoundI::release                          :     GameJam_Silly_Variations (000001620261DD58)
-[LOG] SoundI::release                          : GameJam_Silly_Variations (0000016198E9A5B8)
-[LOG] SoundI::release                          :     GameJam_Silly_Variations (000001610BC26758)
-[LOG] SoundI::release                          :     GameJam_Silly_Variations (000001620261DF08)
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='EN_Hit_2', format=5, channels=2, frequency=48000, lengthbytes=6688, lengthpcm=36070, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.269509.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F994C76298
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F994C75D88
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D2CDA30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='PriamosMobs_Hit02', format=5, channels=2, frequency=48000, lengthbytes=11712, lengthpcm=38880, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.440023.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F994C75D88
+[LOG] SoundI::release                          : EN_Hit_2 (000001F994C76298)
+[LOG] SoundI::release                          :     EN_Hit_2 (000001F97D3D7B18)
+[LOG] SoundI::release                          :     EN_Hit_2 (000001F9952D69B8)
+[LOG] SoundI::release                          : PriamosMobs_Hit02 (000001F994C75D88)
+[LOG] SoundI::release                          :     PriamosMobs_Hit02 (000001F8D69D5A48)
+[LOG] SoundI::release                          :     PriamosMobs_Hit02 (000001F9952D7078)
+[LOG] SoundI::release                          : PortalLayerHits10 (000001F994C76958)
+[LOG] SoundI::release                          :     PortalLayerHits10 (000001F97D3D7158)
+[LOG] SoundI::release                          :     PortalLayerHits10 (000001F9952D7738)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F97D2CE478, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F97D2CE478
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D083930
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_10', format=5, channels=2, frequency=48000, lengthbytes=3584, lengthpcm=14674, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.059370.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F97D2CE478
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F97D2118E8, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F97D2118E8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F94331D760
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_8', format=5, channels=2, frequency=48000, lengthbytes=3520, lengthpcm=13695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.050408.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F97D2118E8
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F94E6D6E58, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F94E6D6E58
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D23F640
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_1', format=5, channels=2, frequency=48000, lengthbytes=3904, lengthpcm=15651, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.069180.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F94E6D6E58
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F94ECA2408, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F94ECA2408
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D23F780
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_7', format=5, channels=2, frequency=48000, lengthbytes=3616, lengthpcm=14347, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.057050.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F94ECA2408
+[LOG] SoundI::release                          : Foot_10 (000001F97D2CE478)
+[LOG] SoundI::release                          :     Foot_10 (000001F97D7FBD78)
+[LOG] SoundI::release                          :     Foot_10 (000001F97D2CE2C8)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F995BDFA48, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F995BDFA48
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D083A70
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_4', format=5, channels=2, frequency=48000, lengthbytes=3424, lengthpcm=12717, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.079108.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F995BDFA48
+[LOG] SoundI::release                          : Foot_8 (000001F97D2118E8)
+[LOG] SoundI::release                          :     Foot_8 (000001F97D7FAD38)
+[LOG] SoundI::release                          :     Foot_8 (000001F995BDF898)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F995BDFDA8, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F995BDFDA8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D083BB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_2', format=5, channels=2, frequency=48000, lengthbytes=3648, lengthpcm=13695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.084455.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F995BDFDA8
+[LOG] SoundI::release                          : Foot_1 (000001F94E6D6E58)
+[LOG] SoundI::release                          :     Foot_1 (000001F97D7FC3F8)
+[LOG] SoundI::release                          :     Foot_1 (000001F995BE0468)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F995BDFBF8, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F995BDFBF8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D0837F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_7', format=5, channels=2, frequency=48000, lengthbytes=3616, lengthpcm=14347, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.057050.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F995BDFBF8
+[LOG] SoundI::release                          : Foot_7 (000001F94ECA2408)
+[LOG] SoundI::release                          :     Foot_7 (000001F97D7FC738)
+[LOG] SoundI::release                          :     Foot_7 (000001F995BDF6E8)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F995BE0468, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F995BE0468
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D083CF0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_3', format=5, channels=2, frequency=48000, lengthbytes=4096, lengthpcm=13695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.255289.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F995BE0468
+[LOG] SoundI::release                          : Foot_4 (000001F995BDFA48)
+[LOG] SoundI::release                          :     Foot_4 (000001F999016F08)
+[LOG] SoundI::release                          :     Foot_4 (000001F94ECA2258)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F995BDFA48, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F995BDFA48
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D083A70
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_5', format=5, channels=2, frequency=48000, lengthbytes=3328, lengthpcm=13043, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.082829.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F995BDFA48
+[LOG] SoundI::release                          : Foot_2 (000001F995BDFDA8)
+[LOG] SoundI::release                          :     Foot_2 (000001F9990170A8)
+[LOG] SoundI::release                          :     Foot_2 (000001F94ECA2C78)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F995BE0108, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F995BE0108
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D083BB0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_7', format=5, channels=2, frequency=48000, lengthbytes=3616, lengthpcm=14347, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.057050.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F995BE0108
+[LOG] SoundI::release                          : Foot_7 (000001F995BDFBF8)
+[LOG] SoundI::release                          :     Foot_7 (000001F94E6B52C8)
+[LOG] SoundI::release                          :     Foot_7 (000001F99563AEA8)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001F995BDFBF8, queue head = 000001F995D47D38, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F995BDFBF8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001F97D083930
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_3', format=5, channels=2, frequency=48000, lengthbytes=4096, lengthpcm=13695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.255289.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F995BDFBF8
+[LOG] SoundI::release                          : Foot_3 (000001F995BDFBF8)
+[LOG] SoundI::release                          :     Foot_3 (000001F94D773BC8)
+[LOG] SoundI::release                          :     Foot_3 (000001F97CC8D2E8)
+[LOG] SoundI::release                          : Foot_7 (000001F995BE0108)
+[LOG] SoundI::release                          :     Foot_7 (000001F94D774248)
+[LOG] SoundI::release                          :     Foot_7 (000001F97CC8D648)
+[LOG] SoundI::release                          : Foot_5 (000001F995BDFA48)
+[LOG] SoundI::release                          :     Foot_5 (000001F8D68D2EA8)
+[LOG] SoundI::release                          :     Foot_5 (000001F724930C88)
+[LOG] SoundI::release                          : Foot_3 (000001F995BE0468)
+[LOG] SoundI::release                          :     Foot_3 (000001F94E6B5AE8)
+[LOG] SoundI::release                          :     Foot_3 (000001F99563B058)
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.

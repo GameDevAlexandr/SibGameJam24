@@ -41,7 +41,7 @@ public class Hero : Character
             _animation.AnimationState.SetAnimation(0, "idle", true);
             _idle = true;
         }
-        if (_isMove && !_isAttack && enm!= null)
+        if (_isMove && !_isAttack && !enm.isDestroyed)
         {
             float dis = Vector2.Distance(_enemy.transform.position, transform.position);
             bool flip = _enemy.transform.position.x > transform.position.x;

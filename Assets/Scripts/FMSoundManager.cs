@@ -24,7 +24,6 @@ public class FMSoundManager : MonoBehaviour
         {
             if(_sonuds[i].sName == sName)
             {
-                Debug.Log("Play " + sName);
                 RuntimeManager.PlayOneShot(_sonuds[i].er, position);
             }
         }

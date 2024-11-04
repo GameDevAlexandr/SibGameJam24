@@ -1202,7 +1202,7 @@ MonoBehaviour:
         Data2: 1265494343
         Data3: -233207910
         Data4: 1634963805
-      Path: event:/Knight/KN_Attack_00
+      Path: event:/Knight/KN_Attack
     sName: 8
   - er:
       Guid:
