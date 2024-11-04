@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/PC.bank
   Name: PC
   StudioPath: bank:/PC
-  lastModified: 638663499227797672
+  lastModified: 638663587835818083
   FileSizes:
   - Name: Desktop
     Value: 162016
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Knight.bank
   Name: Knight
   StudioPath: bank:/Knight
-  lastModified: 638663499227167965
+  lastModified: 638663587835198024
   FileSizes:
   - Name: Desktop
     Value: 523008
@@ -136,7 +136,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638663499227177940
+  lastModified: 638663587835218011
   FileSizes:
   - Name: Desktop
     Value: 2314
@@ -183,7 +183,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Enemies.bank
   Name: Enemies
   StudioPath: bank:/Enemies
-  lastModified: 638663499227078002
+  lastModified: 638663587835092402
   FileSizes:
   - Name: Desktop
     Value: 257440
@@ -439,7 +439,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638663499227828172
+  lastModified: 638663587835848064
   FileSizes:
   - Name: Desktop
     Value: 147904
@@ -580,7 +580,7 @@ MonoBehaviour:
   - {fileID: -5363781731374422365}
   StringsBanks:
   - {fileID: -6633696363705638171}
-  cacheTime: 638663499227828172
+  cacheTime: 638663587835848064
   cacheVersion: 131619
 --- !u!114 &195511598195194601
 MonoBehaviour:
@@ -597,7 +597,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638663499227757705
+  lastModified: 638663587835778115
   FileSizes:
   - Name: Desktop
     Value: 3317472
