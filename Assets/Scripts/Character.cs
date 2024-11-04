@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,34 +10,37 @@ public abstract class Character : MonoBehaviour
     [SerializeField] protected float _moveSpeed;
     [SerializeField] protected float _attackDistance;
     [SerializeField] protected Image _healthBar;
+    [SerializeField] protected SkeletonAnimation _animation;
 
     protected int _currHealth;
     private Transform _target;
     protected bool _isMove;
     protected bool _isAttack;
     private float _attackDelay;
-    private int _armour;
-    private int _wStrengrt;
-    private int _aStrenght;
+    protected int _armour;
+    protected int _wStrengrt;
+    protected int _aStrenght;
 
     private void Start()
     {
         _currHealth = _health;
     }
+
     public virtual void TakeDamage(int damage)
     {
         damage = (int)(damage * ((float)damage / (damage + _armour)));
         _currHealth -= damage;
         _healthBar.fillAmount = (float)_currHealth / _health;
         _aStrenght = Mathf.Max(0, _aStrenght - damage);
+        _animation.AnimationState.SetAnimation(0, "hit", false);
         if (_currHealth <= 0)
         {
             Death();
         }
     }
-    protected void Move(Transform target)
+    protected virtual void Move(Transform target)
     {
-        _target = target;
+        _target = target;        
         _isMove = true;
     }
 

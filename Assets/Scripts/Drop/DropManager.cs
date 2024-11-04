@@ -11,15 +11,18 @@ public class DropManager : MonoBehaviour
     [SerializeField] private Transform _maxDropPos;
     [SerializeField] private DropItem[] _enemyDrops;
     [SerializeField] private DropItem[] _groundDrops;
+    [SerializeField] private SpriteRenderer _dropArea;
 
     private List<DropItem> _drops = new List<DropItem>();
     private List<DropItem> _plants = new List<DropItem>();
     private float _delay;
+    private Bounds _dropBounds;
 
     private void Awake()
     {
         Droper = this;
         _delay = _dropDelay;
+        _dropBounds = _dropArea.bounds;
     }
     private void FillColection(bool atEnemy)
     {
@@ -45,6 +48,7 @@ public class DropManager : MonoBehaviour
         var pos = new Vector2(Random.Range(min.x, max.x), Random.Range(min.y, max.y));
         DropItem(item, pos);
     }
+    public void DropItem(DropItem item) => DropItem(item, _dropBounds.min, _dropBounds.max);
     private DropItem GetDropItem(bool atEnemy)
     {
         var l = atEnemy ? _drops : _plants;

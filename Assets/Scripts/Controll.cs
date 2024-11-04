@@ -24,10 +24,8 @@ public class Controll : MonoBehaviour
     {
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
-        if (x!=0 || y != 0)
-        {
-            direction.Invoke(new Vector2(x, y)*Time.deltaTime);
-        }
+
+        direction.Invoke(new Vector2(x, y).normalized * Time.deltaTime);
         if (Input.GetKeyDown(KeyCode.E))
         {
             interact.Invoke();
