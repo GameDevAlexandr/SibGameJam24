@@ -49,6 +49,7 @@ public class Hero : Character
                 StartAttack();
             }
         }
+        
         ticEvent?.Invoke();
     }
     public override void TakeDamage(int damage)
