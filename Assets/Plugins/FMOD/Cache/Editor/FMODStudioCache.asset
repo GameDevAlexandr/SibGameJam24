@@ -1,784 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8253191717817324889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/M_Level
-  m_EditorClassIdentifier: 
-  Path: event:/Music/M_Level
-  Guid:
-    Data1: 2062453014
-    Data2: 1216171078
-    Data3: 566017697
-    Data4: 2109676692
-  Banks:
-  - {fileID: 7048584187047021021}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 219130
---- !u!114 &-7740373946660934348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Knight/KN_Damage_Recieved_WithoutArmor
-  m_EditorClassIdentifier: 
-  Path: event:/Knight/KN_Damage_Recieved_WithoutArmor
-  Guid:
-    Data1: 226073911
-    Data2: 1287137532
-    Data3: -504397170
-    Data4: -1345104083
-  Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1000
---- !u!114 &-7393156721044518573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PC/PC_Footsteps
-  m_EditorClassIdentifier: 
-  Path: event:/PC/PC_Footsteps
-  Guid:
-    Data1: 1324993306
-    Data2: 1152676928
-    Data3: -310031697
-    Data4: -1978178135
-  Banks:
-  - {fileID: 4442207004037642567}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1527
---- !u!114 &-7156421920130913912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/EN_Hit
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/EN_Hit
-  Guid:
-    Data1: 1701919810
-    Data2: 1268385386
-    Data3: -1018306894
-    Data4: 1098485788
-  Banks:
-  - {fileID: 4175846642160821114}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1000
---- !u!114 &-6692424416379917198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Knight/KN_Damage_Recieved_InArmor
-  m_EditorClassIdentifier: 
-  Path: event:/Knight/KN_Damage_Recieved_InArmor
-  Guid:
-    Data1: -1151938082
-    Data2: 1083007938
-    Data3: 322650502
-    Data4: -210776868
-  Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1500
---- !u!114 &-6633696363705638171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMODBanks/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638663162521920765
-  FileSizes:
-  - Name: Desktop
-    Value: 2314
-  Exists: 1
---- !u!114 &-6275101078909418310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/EN_Zombie_Attack
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/EN_Zombie_Attack
-  Guid:
-    Data1: -2115796485
-    Data2: 1238474437
-    Data3: 1398332062
-    Data4: -689621277
-  Banks:
-  - {fileID: 4175846642160821114}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1498
---- !u!114 &-5568892229908329604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Weapon_1
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Weapon_1
-  Guid:
-    Data1: 1780806371
-    Data2: 1264435976
-    Data3: 1577593743
-    Data4: 2030569440
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3000
---- !u!114 &-5440893879499869531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Knight/KN_Weapon_Equpped
-  m_EditorClassIdentifier: 
-  Path: event:/Knight/KN_Weapon_Equpped
-  Guid:
-    Data1: -476792264
-    Data2: 1272564895
-    Data3: 688288438
-    Data4: 1829267281
-  Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 780
---- !u!114 &-5363781731374422365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMODBanks/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638663162521900812
-  FileSizes:
-  - Name: Desktop
-    Value: 828
-  Exists: 1
---- !u!114 &-5214615794028605669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/EN_Death
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/EN_Death
-  Guid:
-    Data1: -1790705478
-    Data2: 1143693864
-    Data3: 558420122
-    Data4: -525376013
-  Banks:
-  - {fileID: 4175846642160821114}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1500
---- !u!114 &-3532638095783740374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Armor_2
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Armor_2
-  Guid:
-    Data1: -160842200
-    Data2: 1233124734
-    Data3: -593440371
-    Data4: -707512054
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4572
---- !u!114 &-2774243885122746923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Armor_1
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Armor_1
-  Guid:
-    Data1: -724150288
-    Data2: 1102955400
-    Data3: -848850289
-    Data4: -1684437237
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4572
---- !u!114 &-1855240142681272342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Potion_1
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Potion_1
-  Guid:
-    Data1: 891344219
-    Data2: 1137973739
-    Data3: -47038294
-    Data4: 1058335844
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1453
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -6633696363705638171}
-  - {fileID: -5363781731374422365}
-  - {fileID: 4175846642160821114}
-  - {fileID: 770363023611065792}
-  - {fileID: 7048584187047021021}
-  - {fileID: 4442207004037642567}
-  - {fileID: 2601749525012083909}
-  EditorEvents:
-  - {fileID: -5214615794028605669}
-  - {fileID: 1586647692027815053}
-  - {fileID: -6275101078909418310}
-  - {fileID: 4525332176564503921}
-  - {fileID: 2151982347611772352}
-  - {fileID: -7740373946660934348}
-  - {fileID: -5440893879499869531}
-  - {fileID: 995158490964550203}
-  - {fileID: 7997615093184279737}
-  - {fileID: -6692424416379917198}
-  - {fileID: -8253191717817324889}
-  - {fileID: 7842278015577651880}
-  - {fileID: 4065505261302792121}
-  - {fileID: -7393156721044518573}
-  - {fileID: 2533436901088471537}
-  - {fileID: 5430151232844539193}
-  - {fileID: 4134411975500656357}
-  - {fileID: 3830042825779790853}
-  - {fileID: 1811216732777182080}
-  - {fileID: 8022570368911116860}
-  - {fileID: -7156421920130913912}
-  - {fileID: 207021174575378212}
-  - {fileID: 6878139118819924563}
-  - {fileID: -3532638095783740374}
-  - {fileID: 260759616239163457}
-  - {fileID: -1855240142681272342}
-  - {fileID: 2206924160422657645}
-  - {fileID: -5568892229908329604}
-  - {fileID: -2774243885122746923}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: -5363781731374422365}
-  StringsBanks:
-  - {fileID: -6633696363705638171}
-  cacheTime: 638663162526513747
-  cacheVersion: 131619
---- !u!114 &207021174575378212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/EN_Footsteps
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/EN_Footsteps
-  Guid:
-    Data1: -571867020
-    Data2: 1101055119
-    Data3: 1839223433
-    Data4: 1023681177
-  Banks:
-  - {fileID: 4175846642160821114}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1527
---- !u!114 &260759616239163457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Potion_2
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Potion_2
-  Guid:
-    Data1: 641675581
-    Data2: 1169215371
-    Data3: -679100485
-    Data4: 1663431392
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1950
---- !u!114 &770363023611065792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Knight.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMODBanks/Desktop/Knight.bank
-  Name: Knight
-  StudioPath: bank:/Knight
-  lastModified: 638663162521781143
-  FileSizes:
-  - Name: Desktop
-    Value: 523008
-  Exists: 1
---- !u!114 &995158490964550203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Knight/KN_Armor_Broke
-  m_EditorClassIdentifier: 
-  Path: event:/Knight/KN_Armor_Broke
-  Guid:
-    Data1: -413309348
-    Data2: 1151329793
-    Data3: 89015987
-    Data4: 929991954
-  Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1500
---- !u!114 &1586647692027815053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/EN_Zombie_Appear
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/EN_Zombie_Appear
-  Guid:
-    Data1: 787623620
-    Data2: 1308680571
-    Data3: 1055258779
-    Data4: 1584562515
-  Banks:
-  - {fileID: 4175846642160821114}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1951
---- !u!114 &1811216732777182080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Knight/KN_Attack
-  m_EditorClassIdentifier: 
-  Path: event:/Knight/KN_Attack
-  Guid:
-    Data1: -1083231254
-    Data2: 1265494343
-    Data3: -233207910
-    Data4: 1634963805
-  Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 800
---- !u!114 &2151982347611772352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Knight/KN_PotionCast
-  m_EditorClassIdentifier: 
-  Path: event:/Knight/KN_PotionCast
-  Guid:
-    Data1: 341434135
-    Data2: 1080464144
-    Data3: 1275191722
-    Data4: -1083444871
-  Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1794
---- !u!114 &2206924160422657645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Weapon_2
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Weapon_2
-  Guid:
-    Data1: -334589233
-    Data2: 1187553279
-    Data3: 2024644997
-    Data4: -1772211389
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3000
---- !u!114 &2533436901088471537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PC/PC_Item_Dropped
-  m_EditorClassIdentifier: 
-  Path: event:/PC/PC_Item_Dropped
-  Guid:
-    Data1: 457746544
-    Data2: 1110780149
-    Data3: -790568052
-    Data4: -1138942346
-  Banks:
-  - {fileID: 4442207004037642567}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 10000
-  Length: 468
---- !u!114 &2601749525012083909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/UI.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMODBanks/Desktop/UI.bank
-  Name: UI
-  StudioPath: bank:/UI
-  lastModified: 638663162526513747
-  FileSizes:
-  - Name: Desktop
-    Value: 147904
-  Exists: 1
---- !u!114 &3830042825779790853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemTableDropped
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemTableDropped
-  Guid:
-    Data1: 966569953
-    Data2: 1094783788
-    Data3: -1889714515
-    Data4: 1354424428
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 475
---- !u!114 &4065505261302792121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/M_MainMenu
-  m_EditorClassIdentifier: 
-  Path: event:/Music/M_MainMenu
-  Guid:
-    Data1: -863715617
-    Data2: 1269086546
-    Data3: -2019230591
-    Data4: 300660605
-  Banks:
-  - {fileID: 7048584187047021021}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 21369
---- !u!114 &4134411975500656357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ButtonClick
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ButtonClick
-  Guid:
-    Data1: -1274439911
-    Data2: 1092893461
-    Data3: -1024394082
-    Data4: -950694418
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 378
---- !u!114 &4175846642160821114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Enemies.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMODBanks/Desktop/Enemies.bank
-  Name: Enemies
-  StudioPath: bank:/Enemies
-  lastModified: 638663162521041878
-  FileSizes:
-  - Name: Desktop
-    Value: 257440
-  Exists: 1
---- !u!114 &4442207004037642567
+--- !u!114 &-8997695643058912637
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -793,12 +15,32 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/PC.bank
   Name: PC
   StudioPath: bank:/PC
-  lastModified: 638663162523551484
+  lastModified: 638663353432427379
   FileSizes:
   - Name: Desktop
-    Value: 162016
+    Value: 2206
   Exists: 1
---- !u!114 &4525332176564503921
+--- !u!114 &-7923193396156468951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Knight.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODBanks/Desktop/Knight.bank
+  Name: Knight
+  StudioPath: bank:/Knight
+  lastModified: 638663353431877680
+  FileSizes:
+  - Name: Desktop
+    Value: 5564
+  Exists: 1
+--- !u!114 &-7515974136805836800
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -817,15 +59,15 @@ MonoBehaviour:
     Data3: -433129800
     Data4: 1295893020
   Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
+  - {fileID: -7923193396156468951}
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1500
---- !u!114 &5430151232844539193
+  Length: 0
+--- !u!114 &-6998353709114570241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -844,42 +86,15 @@ MonoBehaviour:
     Data3: 296123520
     Data4: 1994579617
   Banks:
-  - {fileID: 4442207004037642567}
-  IsStream: 1
-  Is3D: 1
+  - {fileID: -8997695643058912637}
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 577
---- !u!114 &6878139118819924563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Knight/KN_Footsteps
-  m_EditorClassIdentifier: 
-  Path: event:/Knight/KN_Footsteps
-  Guid:
-    Data1: -147740287
-    Data2: 1157874208
-    Data3: -1616646239
-    Data4: 929177478
-  Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1380
---- !u!114 &7048584187047021021
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6633696363705638171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -889,17 +104,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: Assets/FMODBanks/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 638663140365143897
+  Path: Assets/FMODBanks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638663353431917656
   FileSizes:
   - Name: Desktop
-    Value: 3317472
+    Value: 2156
   Exists: 1
---- !u!114 &7842278015577651880
+--- !u!114 &-6440196313801830400
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -918,7 +133,7 @@ MonoBehaviour:
     Data3: 587829130
     Data4: -129140082
   Banks:
-  - {fileID: 7048584187047021021}
+  - {fileID: 195511598195194601}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -926,7 +141,256 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &7997615093184279737
+--- !u!114 &-5447097568912377069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Enemies.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODBanks/Desktop/Enemies.bank
+  Name: Enemies
+  StudioPath: bank:/Enemies
+  lastModified: 638663353431857698
+  FileSizes:
+  - Name: Desktop
+    Value: 2050
+  Exists: 1
+--- !u!114 &-5399311899256229547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_Damage_Recieved_WithoutArmor
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_Damage_Recieved_WithoutArmor
+  Guid:
+    Data1: 226073911
+    Data2: 1287137532
+    Data3: -504397170
+    Data4: -1345104083
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5363781731374422365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODBanks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638663353431897677
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &-5278649106620893459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ButtonClick
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ButtonClick
+  Guid:
+    Data1: -1274439911
+    Data2: 1092893461
+    Data3: -1024394082
+    Data4: -950694418
+  Banks:
+  - {fileID: -2070556892240887711}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4725500857491452062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/M_MainMenu
+  m_EditorClassIdentifier: 
+  Path: event:/Music/M_MainMenu
+  Guid:
+    Data1: -863715617
+    Data2: 1269086546
+    Data3: -2019230591
+    Data4: 300660605
+  Banks:
+  - {fileID: 195511598195194601}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4047871558415095043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_PotionCast
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_PotionCast
+  Guid:
+    Data1: 341434135
+    Data2: 1080464144
+    Data3: 1275191722
+    Data4: -1083444871
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3691180061165318060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PC/PC_Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/PC/PC_Footsteps
+  Guid:
+    Data1: 1324993306
+    Data2: 1152676928
+    Data3: -310031697
+    Data4: -1978178135
+  Banks:
+  - {fileID: -8997695643058912637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2838215052127588357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_Attack_00
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_Attack_00
+  Guid:
+    Data1: -1083231254
+    Data2: 1265494343
+    Data3: -233207910
+    Data4: 1634963805
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2070556892240887711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODBanks/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638663353432447375
+  FileSizes:
+  - Name: Desktop
+    Value: 3556
+  Exists: 1
+--- !u!114 &-1764162716099128416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_PotionCraft_End
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_PotionCraft_End
+  Guid:
+    Data1: -1498622825
+    Data2: 1216929610
+    Data3: 641039012
+    Data4: -869805628
+  Banks:
+  - {fileID: -2070556892240887711}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-802262173088565366
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -945,15 +409,15 @@ MonoBehaviour:
     Data3: -1454404940
     Data4: 804114583
   Banks:
-  - {fileID: 770363023611065792}
-  IsStream: 1
-  Is3D: 1
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
-  Length: 1596
---- !u!114 &8022570368911116860
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-434740355118543218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -963,20 +427,444 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PC/PC_Sigh
+  m_Name: event:/UI/UI_ButtonHover
   m_EditorClassIdentifier: 
-  Path: event:/PC/PC_Sigh
+  Path: event:/UI/UI_ButtonHover
   Guid:
-    Data1: -612871697
-    Data2: 1114113415
-    Data3: -1246753621
-    Data4: -1884379142
+    Data1: 357566168
+    Data2: 1223299389
+    Data3: 223708038
+    Data4: 688969774
   Banks:
-  - {fileID: 4442207004037642567}
-  IsStream: 1
+  - {fileID: -2070556892240887711}
+  IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 300
+  Length: 0
+--- !u!114 &-127883714660713197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_PotionCraft_Start
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_PotionCraft_Start
+  Guid:
+    Data1: 1888428890
+    Data2: 1194552390
+    Data3: -852099420
+    Data4: -176908043
+  Banks:
+  - {fileID: -2070556892240887711}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -6633696363705638171}
+  - {fileID: -5363781731374422365}
+  - {fileID: -5447097568912377069}
+  - {fileID: -7923193396156468951}
+  - {fileID: 195511598195194601}
+  - {fileID: -8997695643058912637}
+  - {fileID: -2070556892240887711}
+  EditorEvents:
+  - {fileID: 618027035727841737}
+  - {fileID: 4242172597725826403}
+  - {fileID: 4178143632790111675}
+  - {fileID: -7515974136805836800}
+  - {fileID: 6211260931091441619}
+  - {fileID: -4047871558415095043}
+  - {fileID: -5399311899256229547}
+  - {fileID: 4836168717700765756}
+  - {fileID: 2482565019897388743}
+  - {fileID: -802262173088565366}
+  - {fileID: 521084019441002512}
+  - {fileID: 3882317367655368895}
+  - {fileID: -2838215052127588357}
+  - {fileID: 7435173850013545337}
+  - {fileID: -6440196313801830400}
+  - {fileID: -4725500857491452062}
+  - {fileID: -3691180061165318060}
+  - {fileID: 3967066092326565721}
+  - {fileID: -6998353709114570241}
+  - {fileID: 6521221145490264749}
+  - {fileID: -5278649106620893459}
+  - {fileID: -127883714660713197}
+  - {fileID: -1764162716099128416}
+  - {fileID: -434740355118543218}
+  - {fileID: 6799839527994454222}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5363781731374422365}
+  StringsBanks:
+  - {fileID: -6633696363705638171}
+  cacheTime: 638663353432447375
+  cacheVersion: 131619
+--- !u!114 &195511598195194601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMODBanks/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638663353432407399
+  FileSizes:
+  - Name: Desktop
+    Value: 3029664
+  Exists: 1
+--- !u!114 &521084019441002512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_Attack_01
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_Attack_01
+  Guid:
+    Data1: 1704944794
+    Data2: 1160558174
+    Data3: -1324653168
+    Data4: -1924184123
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &618027035727841737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/EN_Death
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/EN_Death
+  Guid:
+    Data1: -1790705478
+    Data2: 1143693864
+    Data3: 558420122
+    Data4: -525376013
+  Banks:
+  - {fileID: -5447097568912377069}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2482565019897388743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_Armor_Broke
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_Armor_Broke
+  Guid:
+    Data1: -413309348
+    Data2: 1151329793
+    Data3: 89015987
+    Data4: 929991954
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3882317367655368895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_Damage_Recieved_InArmor
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_Damage_Recieved_InArmor
+  Guid:
+    Data1: -1151938082
+    Data2: 1083007938
+    Data3: 322650502
+    Data4: -210776868
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3967066092326565721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PC/PC_Item_Dropped
+  m_EditorClassIdentifier: 
+  Path: event:/PC/PC_Item_Dropped
+  Guid:
+    Data1: 457746544
+    Data2: 1110780149
+    Data3: -790568052
+    Data4: -1138942346
+  Banks:
+  - {fileID: -8997695643058912637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4178143632790111675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/EN_Zombie_Attack
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/EN_Zombie_Attack
+  Guid:
+    Data1: -2115796485
+    Data2: 1238474437
+    Data3: 1398332062
+    Data4: -689621277
+  Banks:
+  - {fileID: -5447097568912377069}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4242172597725826403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/EN_Zombie_Appear
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/EN_Zombie_Appear
+  Guid:
+    Data1: 787623620
+    Data2: 1308680571
+    Data3: 1055258779
+    Data4: 1584562515
+  Banks:
+  - {fileID: -5447097568912377069}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4836168717700765756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_Weapon_Equpped
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_Weapon_Equpped
+  Guid:
+    Data1: -476792264
+    Data2: 1272564895
+    Data3: 688288438
+    Data4: 1829267281
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6211260931091441619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_Attack_02
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_Attack_02
+  Guid:
+    Data1: 1456438283
+    Data2: 1188729759
+    Data3: -781693800
+    Data4: 1506169370
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6521221145490264749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ItemMerged
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ItemMerged
+  Guid:
+    Data1: -1039731194
+    Data2: 1202631436
+    Data3: -1327233346
+    Data4: 898444126
+  Banks:
+  - {fileID: -2070556892240887711}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6799839527994454222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ItemTableDropped
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ItemTableDropped
+  Guid:
+    Data1: 966569953
+    Data2: 1094783788
+    Data3: -1889714515
+    Data4: 1354424428
+  Banks:
+  - {fileID: -2070556892240887711}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7435173850013545337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/M_Level
+  m_EditorClassIdentifier: 
+  Path: event:/Music/M_Level
+  Guid:
+    Data1: 2062453014
+    Data2: 1216171078
+    Data3: 566017697
+    Data4: 2109676692
+  Banks:
+  - {fileID: 195511598195194601}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 219130

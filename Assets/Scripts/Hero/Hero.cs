@@ -2,6 +2,8 @@ using Spine.Unity;
 using UnityEngine;
 using UnityEngine.Events;
 using static EnemyBase;
+using static Enums;
+using static FMSoundManager;
 
 public class Hero : Character
 {
@@ -49,11 +51,13 @@ public class Hero : Character
                 StartAttack();
             }
         }
+        
         ticEvent?.Invoke();
     }
     public override void TakeDamage(int damage)
     {
-        GetStatus(Enums.DropType.armour).UpdateValue(damage);
+        GetStatus(DropType.armour).UpdateValue(damage);
+        Sound.Play(_armour > 0 ? SoundName.armourHit : SoundName.heroHit, transform.position);
         base.TakeDamage(damage);
     }
     protected override void Attack()
@@ -62,8 +66,9 @@ public class Hero : Character
         {
             _enemy.TakeDamage((int)((_damage+damageBoost)*damageMult));
             _wStrengrt = Mathf.Max(0, _wStrengrt - 10);
-            GetStatus(Enums.DropType.weapon).UpdateValue(10);
+            GetStatus(DropType.weapon).UpdateValue(10);
             _animation.AnimationState.SetAnimation(0, "attack", false);
+            Sound.Play(SoundName.knightAttack, transform.position);
         }
         if (_enemy.isDestroyed)
         {

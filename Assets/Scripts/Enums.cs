@@ -9,5 +9,27 @@ public static class Enums
         faster,
         damager        
     }
+    public enum SoundName
+    {
+        knightFootStep,
+        dogFootStep,
+        enemyHit,
+        enemyDie,
+        enemySpawn,
+        enemyAttack,
+        armourBroke,
+        armourEquip,
+        knightAttack,
+        potionUse,
+        weaponBroke,
+        weaponEquip,
+        drop,
+        pick,
+        buttonClick,
+        armourMerge,
+        potionMege,
+        armourHit,
+        heroHit
+    }
 
 }

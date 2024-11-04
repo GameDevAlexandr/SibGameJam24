@@ -68,7 +68,7 @@ public abstract class Character : MonoBehaviour
     {
         _isMove = false;
         _isAttack = true;
-        _attackDelay = 1f / _atkSpeed;
+        _attackDelay = 0;
     }
     protected abstract void Tic();
     protected abstract void Death();
