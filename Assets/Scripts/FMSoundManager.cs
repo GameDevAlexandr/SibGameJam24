@@ -36,7 +36,6 @@ public class FMSoundManager : MonoBehaviour
                 if (_sonuds[i].isState)
                 {
                     _sonuds[i].state.start();
-                    Debug.Log("start steps");
                 }
                 else
                 {
@@ -59,7 +58,6 @@ public class FMSoundManager : MonoBehaviour
                 if (_sonuds[i].isState)
                 {
                     _sonuds[i].state.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-                    Debug.Log("stop steps");
                 }
             }
 

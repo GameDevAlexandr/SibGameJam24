@@ -20,12 +20,8 @@ public class DropItem : ScriptableObject
     public ItemEffect effect =>SetEffect();
 
     private ItemEffect SetEffect() 
-    {
+    {        
         _effect.Item = this;
-        if (_effect.Item == null)
-        {            
-            Hero.hero.ticEvent.AddListener(_effect.Tic);
-        }
         return _effect;
     }
 }

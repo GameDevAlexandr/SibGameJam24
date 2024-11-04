@@ -36,13 +36,13 @@ public class Player : MonoBehaviour
         {
             _animation.AnimationState.SetAnimation(0, "idle", true);
             _isRuned = false;
-            Sound.Play(Enums.SoundName.dogFootStep);
+            Sound.Stop(Enums.SoundName.dogFootStep);
         }
         if(!_isRuned && direction != Vector2.zero)
         {
             _animation.AnimationState.SetAnimation(0, "run", true);
             _isRuned = true;
-            Sound.Stop(Enums.SoundName.dogFootStep);
+            Sound.Play(Enums.SoundName.dogFootStep);
         }
         _rb.velocity = direction*_speed;
     }

@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class StatusIcon : MonoBehaviour
 {
+    public ItemEffect effect => _effect;
     [SerializeField] private Image _icon;
     [SerializeField] private Image _progress;
     [field: SerializeField] public Enums.DropType Type { get; private set; }
@@ -24,11 +25,16 @@ public class StatusIcon : MonoBehaviour
 
     public void UpdateValue(float count)
     {
-        if (!gameObject.activeSelf)
+        if (_value > 0)
+        {
+            gameObject.SetActive(true);
+        }
+        else
         {
             return;
         }
         _value -= count;
+       
         if (_value <= 0)
         {
             gameObject.SetActive(false);

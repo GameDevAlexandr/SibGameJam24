@@ -23,7 +23,7 @@ public class Settings : MonoBehaviour
 
     private void Awake()
     {
-        musicBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
+        musicBus = FMODUnity.RuntimeManager.GetBus("bus:/");
         soundBus = FMODUnity.RuntimeManager.GetBus("bus:/SFX");
         //_music.value = musicVolume;
         //_sound.value = soundVolume;
@@ -44,9 +44,6 @@ public class Settings : MonoBehaviour
     public void ChangeMusicVolume()
     {
         musicBus.setVolume(_music.value);
-        float vol;
-        musicBus.getVolume(out vol);
-        Debug.Log(vol);
         //_mute.isOn = false;
         //musicVolume = _music.value;
     }

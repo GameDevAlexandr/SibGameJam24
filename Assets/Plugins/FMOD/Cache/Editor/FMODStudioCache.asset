@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/PC.bank
   Name: PC
   StudioPath: bank:/PC
-  lastModified: 638663612646891738
+  lastModified: 638663619865036211
   FileSizes:
   - Name: Desktop
-    Value: 162016
+    Value: 344288
   Exists: 1
 --- !u!114 &-7923193396156468951
 MonoBehaviour:
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Knight.bank
   Name: Knight
   StudioPath: bank:/Knight
-  lastModified: 638663612646322109
+  lastModified: 638663619862038398
   FileSizes:
   - Name: Desktop
-    Value: 523008
+    Value: 1099232
   Exists: 1
 --- !u!114 &-7515974136805836800
 MonoBehaviour:
@@ -118,8 +118,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 9.8
+  MaxDistance: 100
   Length: 577
 --- !u!114 &-6633696363705638171
 MonoBehaviour:
@@ -136,10 +136,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638663612646352154
+  lastModified: 638663616474830201
   FileSizes:
   - Name: Desktop
-    Value: 2314
+    Value: 2394
   Exists: 1
 --- !u!114 &-6440196313801830400
 MonoBehaviour:
@@ -183,10 +183,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Enemies.bank
   Name: Enemies
   StudioPath: bank:/Enemies
-  lastModified: 638663612646232148
+  lastModified: 638663619861261620
   FileSizes:
   - Name: Desktop
-    Value: 257440
+    Value: 530976
   Exists: 1
 --- !u!114 &-5399311899256229547
 MonoBehaviour:
@@ -212,8 +212,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 10
+  MaxDistance: 85
   Length: 1000
 --- !u!114 &-5363781731374422365
 MonoBehaviour:
@@ -230,10 +230,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638663612646342098
+  lastModified: 638663616474810258
   FileSizes:
   - Name: Desktop
-    Value: 828
+    Value: 986
   Exists: 1
 --- !u!114 &-5278649106620893459
 MonoBehaviour:
@@ -286,8 +286,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 10
+  MaxDistance: 80
   Length: 800
 --- !u!114 &-4788633775497617456
 MonoBehaviour:
@@ -367,8 +367,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 10
+  MaxDistance: 80
   Length: 1794
 --- !u!114 &-3691180061165318060
 MonoBehaviour:
@@ -394,8 +394,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 10
+  MaxDistance: 90
   Length: 1527
 --- !u!114 &-3599892875061912817
 MonoBehaviour:
@@ -439,10 +439,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638663612646931720
+  lastModified: 638663620812445911
   FileSizes:
   - Name: Desktop
-    Value: 147904
+    Value: 281696
   Exists: 1
 --- !u!114 &-802262173088565366
 MonoBehaviour:
@@ -468,8 +468,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 9.8
+  MaxDistance: 80
   Length: 1596
 --- !u!114 &-417598042789948908
 MonoBehaviour:
@@ -495,8 +495,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 10
+  MaxDistance: 80
   Length: 1000
 --- !u!114 &-115290181218741521
 MonoBehaviour:
@@ -522,8 +522,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 10
+  MaxDistance: 74.5
   Length: 1380
 --- !u!114 &11400000
 MonoBehaviour:
@@ -575,12 +575,13 @@ MonoBehaviour:
   - {fileID: 4211846576675273531}
   - {fileID: -7470307858160554610}
   - {fileID: 6615913727695532088}
+  - {fileID: 2025234666376030499}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5363781731374422365}
   StringsBanks:
   - {fileID: -6633696363705638171}
-  cacheTime: 638663612646931720
+  cacheTime: 638663620910662743
   cacheVersion: 131619
 --- !u!114 &195511598195194601
 MonoBehaviour:
@@ -597,10 +598,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638663612646841776
+  lastModified: 638663620910662743
   FileSizes:
   - Name: Desktop
-    Value: 3317472
+    Value: 7476544
   Exists: 1
 --- !u!114 &618027035727841737
 MonoBehaviour:
@@ -626,9 +627,36 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 10
+  MaxDistance: 85
   Length: 1500
+--- !u!114 &2025234666376030499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_AttackFist
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_AttackFist
+  Guid:
+    Data1: -1922452627
+    Data2: 1107656535
+    Data3: -272848741
+    Data4: 1769666933
+  Banks:
+  - {fileID: -7923193396156468951}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 10
+  MaxDistance: 80
+  Length: 800
 --- !u!114 &2233969260200451221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -704,11 +732,11 @@ MonoBehaviour:
   Banks:
   - {fileID: -7923193396156468951}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 9.8
+  MaxDistance: 75
   Length: 1500
 --- !u!114 &3882317367655368895
 MonoBehaviour:
@@ -734,8 +762,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 9.8
+  MaxDistance: 80
   Length: 1500
 --- !u!114 &3967066092326565721
 MonoBehaviour:
@@ -788,8 +816,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 9.8
+  MaxDistance: 80
   Length: 1498
 --- !u!114 &4211846576675273531
 MonoBehaviour:
@@ -842,8 +870,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 9.400001
+  MaxDistance: 80
   Length: 1951
 --- !u!114 &4836168717700765756
 MonoBehaviour:
@@ -869,8 +897,8 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 10000
-  MaxDistance: 10000
+  MinDistance: 9.8
+  MaxDistance: 80
   Length: 780
 --- !u!114 &6615913727695532088
 MonoBehaviour:

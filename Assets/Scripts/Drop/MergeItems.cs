@@ -59,7 +59,9 @@ public class MergeItems : MonoBehaviour, IDragHandler, IDropHandler, IBeginDragH
                 Debug.Log("Stop m");
                 Manager.OnDrag(false, Index);
                 mItem.SetItem(Item.NextItem);
+                FMSoundManager.Sound.Play(Enums.SoundName.armourMerge);
                 Manager.RemoveItem(this);
+
                 return;
             }
         }

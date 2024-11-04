@@ -78,7 +78,13 @@ public class Hero : Character
                 StartAttack();
             }
         }
-        
+        for (int i = 0; i < statuses.Length; i++)
+        {
+            if (statuses[i].gameObject.activeSelf)
+            {
+                statuses[i].effect.Tic();
+            }
+        }
         ticEvent?.Invoke();
     }
     public override void TakeDamage(int damage)
