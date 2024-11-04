@@ -9,7 +9,7 @@ public static class Enums
         faster,
         damager        
     }
-    public enum Sounds
+    public enum SoundName
     {
         knightFootStep,
         dogFootStep,
@@ -27,7 +27,9 @@ public static class Enums
         pick,
         buttonClick,
         armourMerge,
-        potionMege
+        potionMege,
+        armourHit,
+        heroHit
     }
 
 }

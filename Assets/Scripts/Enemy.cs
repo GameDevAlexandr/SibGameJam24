@@ -1,6 +1,7 @@
 using UnityEngine;
 using static EnemyBase;
 using static Hero;
+using static FMSoundManager;
 
 public class Enemy : Character
 {
@@ -12,6 +13,8 @@ public class Enemy : Character
         _animation.AnimationState.Complete += AnimationState_Complete;
         bool flip = hero.transform.position.x > transform.position.x;
         _animation.skeleton.ScaleX = flip ? 1 : -1;
+        Sound.Play(Enums.SoundName.enemySpawn, transform.position);
+
     }
 
     private void AnimationState_Complete(Spine.TrackEntry trackEntry)
@@ -28,6 +31,7 @@ public class Enemy : Character
     protected override void Death()
     {
         isDestroyed = true;
+        Sound.Play(Enums.SoundName.enemyDie, transform.position);
         DropManager.Droper.DropItem(true, transform.position);
         eBase.RemoveEnemy(this);
     }
