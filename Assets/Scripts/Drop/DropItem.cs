@@ -14,4 +14,17 @@ public class DropItem : ScriptableObject
     [field: SerializeField] public string Name { get; private set;}
     [field: SerializeField] public string Description { get; private set;}
     [field: SerializeField] public DropItem NextItem { get; private set;}
+
+    [SerializeField] private ItemEffect _effect;
+    public ItemEffect effect =>SetEffect();
+
+    private ItemEffect SetEffect() 
+    {
+        if(_effect.Item == null)
+        {
+            _effect.Item = this;
+            Hero.hero.ticEvent.AddListener(_effect.Tic);
+        }
+        return _effect;
+    }
 }

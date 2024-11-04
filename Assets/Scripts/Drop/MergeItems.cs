@@ -34,11 +34,14 @@ public class MergeItems : MonoBehaviour, IDragHandler, IDropHandler, IBeginDragH
     }
     public void OnEndDrag(PointerEventData eventData)
     {
-        _back.transform.position = transform.position;
-        _back.transform.parent = transform;
-        Manager.OnDrag(false, Index);
-        _group.blocksRaycasts = true;
-        _group.alpha = 1f;
+        if (Manager.DropItem(this, eventData.pointerCurrentRaycast.worldPosition))
+        {
+            _back.transform.position = transform.position;
+            _back.transform.parent = transform;
+            Manager.OnDrag(false, Index);
+            _group.blocksRaycasts = true;
+            _group.alpha = 1f;
+        }
     }
     public void OnDrag(PointerEventData eventData)
     {

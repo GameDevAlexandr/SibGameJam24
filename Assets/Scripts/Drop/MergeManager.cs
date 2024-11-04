@@ -8,9 +8,13 @@ public class MergeManager : MonoBehaviour
     [SerializeField] private MergeItems _itemPrefab;
     [SerializeField] private LayoutGroup _group;
     [SerializeField] private GameObject _workshopPanel;
+    [SerializeField] private RectTransform _panelArea;
+    private Bounds _dropBounds;
     private void Awake()
     {
         Items = new List<MergeItems>();
+        Debug.Log("size " + _panelArea.sizeDelta);
+        _dropBounds = new Bounds(_panelArea.position, _panelArea.sizeDelta);
     }
 
     public void PutItem(DropItem item)
@@ -19,9 +23,15 @@ public class MergeManager : MonoBehaviour
         Items[Items.Count-1].SetItem(item);
         Items[Items.Count-1].Manager = this;
     }
-    public void DropItem(DropItem item)
+    public bool DropItem(MergeItems item, Vector2 pos)
     {
-
+        if (!_dropBounds.Contains(pos))
+        {
+            DropManager.Droper.DropItem(item.Item);
+            RemoveItem(item);
+            return false;
+        }
+        return true;
     }
     public void RemoveItem(MergeItems item)
     {

@@ -15,9 +15,10 @@ MonoBehaviour:
   <Index>k__BackingField: 5
   <Type>k__BackingField: 1
   <Power>k__BackingField: 10
-  <Icon>k__BackingField: {fileID: 584708929, guid: 8ff6d1d22bbead645a037eb240e86734, type: 3}
-  <Back>k__BackingField: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  <Strenght>k__BackingField: 100
+  <Icon>k__BackingField: {fileID: 21300000, guid: 1372499379de976409213915fae32124, type: 3}
+  <Back>k__BackingField: {fileID: 21300000, guid: 4561e3c8635dc0e459210ea2d82cecdb, type: 3}
   <Name>k__BackingField: 
   <Description>k__BackingField: 
-  <IsMergin>k__BackingField: 1
   <NextItem>k__BackingField: {fileID: 11400000, guid: 9fbcff6d53ec9ba4086415b96a52c226, type: 2}
+  _effect: {fileID: 8723180251444621927, guid: c0803a15f748c6944b20ad4c8a10c7c5, type: 3}

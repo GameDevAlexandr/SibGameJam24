@@ -5,8 +5,9 @@ public static class Enums
     {
         armour,
         weapon,
-        plant,
-        potion
+        healer,
+        faster,
+        damager        
     }
 
 }
