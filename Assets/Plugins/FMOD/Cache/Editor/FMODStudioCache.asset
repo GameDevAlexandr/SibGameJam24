@@ -27,33 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 219130
---- !u!114 &-8173114291302373783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged
-  Guid:
-    Data1: -1039731194
-    Data2: 1202631436
-    Data3: -1327233346
-    Data4: 898444126
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-7740373946660934348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,11 +48,11 @@ MonoBehaviour:
   Banks:
   - {fileID: 770363023611065792}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 10000
+  MaxDistance: 10000
   Length: 1000
 --- !u!114 &-7393156721044518573
 MonoBehaviour:
@@ -102,12 +75,39 @@ MonoBehaviour:
   Banks:
   - {fileID: 4442207004037642567}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1400
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 1527
+--- !u!114 &-7156421920130913912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/EN_Hit
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/EN_Hit
+  Guid:
+    Data1: 1701919810
+    Data2: 1268385386
+    Data3: -1018306894
+    Data4: 1098485788
+  Banks:
+  - {fileID: 4175846642160821114}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 1000
 --- !u!114 &-6692424416379917198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,11 +129,11 @@ MonoBehaviour:
   Banks:
   - {fileID: 770363023611065792}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 10000
+  MaxDistance: 10000
   Length: 1500
 --- !u!114 &-6633696363705638171
 MonoBehaviour:
@@ -150,10 +150,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638662797339686909
+  lastModified: 638663162521920765
   FileSizes:
   - Name: Desktop
-    Value: 2246
+    Value: 2314
   Exists: 1
 --- !u!114 &-6275101078909418310
 MonoBehaviour:
@@ -175,13 +175,40 @@ MonoBehaviour:
     Data4: -689621277
   Banks:
   - {fileID: 4175846642160821114}
-  IsStream: 0
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 1498
+--- !u!114 &-5568892229908329604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ItemMerged_Weapon_1
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ItemMerged_Weapon_1
+  Guid:
+    Data1: 1780806371
+    Data2: 1264435976
+    Data3: 1577593743
+    Data4: 2030569440
+  Banks:
+  - {fileID: 2601749525012083909}
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 3000
 --- !u!114 &-5440893879499869531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,11 +230,11 @@ MonoBehaviour:
   Banks:
   - {fileID: 770363023611065792}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 10000
+  MaxDistance: 10000
   Length: 780
 --- !u!114 &-5363781731374422365
 MonoBehaviour:
@@ -224,7 +251,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638662797339666993
+  lastModified: 638663162521900812
   FileSizes:
   - Name: Desktop
     Value: 828
@@ -249,14 +276,14 @@ MonoBehaviour:
     Data4: -525376013
   Banks:
   - {fileID: 4175846642160821114}
-  IsStream: 0
-  Is3D: 0
+  IsStream: 1
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4049170971578677720
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 1500
+--- !u!114 &-3532638095783740374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -266,24 +293,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Weapon
+  m_Name: event:/UI/UI_ItemMerged_Armor_2
   m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Weapon
+  Path: event:/UI/UI_ItemMerged_Armor_2
   Guid:
-    Data1: 1780806371
-    Data2: 1264435976
-    Data3: 1577593743
-    Data4: 2030569440
+    Data1: -160842200
+    Data2: 1233124734
+    Data3: -593440371
+    Data4: -707512054
   Banks:
   - {fileID: 2601749525012083909}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
---- !u!114 &-2605634485366977034
+  Length: 4572
+--- !u!114 &-2774243885122746923
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -293,23 +320,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_PotionCraft_Start
+  m_Name: event:/UI/UI_ItemMerged_Armor_1
   m_EditorClassIdentifier: 
-  Path: event:/UI/UI_PotionCraft_Start
+  Path: event:/UI/UI_ItemMerged_Armor_1
   Guid:
-    Data1: 1888428890
-    Data2: 1194552390
-    Data3: -852099420
-    Data4: -176908043
+    Data1: -724150288
+    Data2: 1102955400
+    Data3: -848850289
+    Data4: -1684437237
   Banks:
   - {fileID: 2601749525012083909}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 4572
+--- !u!114 &-1855240142681272342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ItemMerged_Potion_1
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ItemMerged_Potion_1
+  Guid:
+    Data1: 891344219
+    Data2: 1137973739
+    Data3: -47038294
+    Data4: 1058335844
+  Banks:
+  - {fileID: 2601749525012083909}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1453
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,24 +401,80 @@ MonoBehaviour:
   - {fileID: -7393156721044518573}
   - {fileID: 2533436901088471537}
   - {fileID: 5430151232844539193}
-  - {fileID: -8173114291302373783}
   - {fileID: 4134411975500656357}
-  - {fileID: -2605634485366977034}
-  - {fileID: 4326652737580244795}
-  - {fileID: 8521960842109341661}
   - {fileID: 3830042825779790853}
   - {fileID: 1811216732777182080}
   - {fileID: 8022570368911116860}
-  - {fileID: 1657156538138520836}
-  - {fileID: -4049170971578677720}
-  - {fileID: 8833210336326174523}
+  - {fileID: -7156421920130913912}
+  - {fileID: 207021174575378212}
+  - {fileID: 6878139118819924563}
+  - {fileID: -3532638095783740374}
+  - {fileID: 260759616239163457}
+  - {fileID: -1855240142681272342}
+  - {fileID: 2206924160422657645}
+  - {fileID: -5568892229908329604}
+  - {fileID: -2774243885122746923}
   EditorParameters: []
   MasterBanks:
   - {fileID: -5363781731374422365}
   StringsBanks:
   - {fileID: -6633696363705638171}
-  cacheTime: 638662797339861953
+  cacheTime: 638663162526513747
   cacheVersion: 131619
+--- !u!114 &207021174575378212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/EN_Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/EN_Footsteps
+  Guid:
+    Data1: -571867020
+    Data2: 1101055119
+    Data3: 1839223433
+    Data4: 1023681177
+  Banks:
+  - {fileID: 4175846642160821114}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 1527
+--- !u!114 &260759616239163457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ItemMerged_Potion_2
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ItemMerged_Potion_2
+  Guid:
+    Data1: 641675581
+    Data2: 1169215371
+    Data3: -679100485
+    Data4: 1663431392
+  Banks:
+  - {fileID: 2601749525012083909}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1950
 --- !u!114 &770363023611065792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -380,10 +490,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Knight.bank
   Name: Knight
   StudioPath: bank:/Knight
-  lastModified: 638662797339561871
+  lastModified: 638663162521781143
   FileSizes:
   - Name: Desktop
-    Value: 403200
+    Value: 523008
   Exists: 1
 --- !u!114 &995158490964550203
 MonoBehaviour:
@@ -432,40 +542,13 @@ MonoBehaviour:
     Data4: 1584562515
   Banks:
   - {fileID: 4175846642160821114}
-  IsStream: 0
-  Is3D: 0
+  IsStream: 1
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &1657156538138520836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Potion
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Potion
-  Guid:
-    Data1: 891344219
-    Data2: 1137973739
-    Data3: -47038294
-    Data4: 1058335844
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 1951
 --- !u!114 &1811216732777182080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -487,11 +570,11 @@ MonoBehaviour:
   Banks:
   - {fileID: 770363023611065792}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 10000
+  MaxDistance: 10000
   Length: 800
 --- !u!114 &2151982347611772352
 MonoBehaviour:
@@ -513,13 +596,40 @@ MonoBehaviour:
     Data4: -1083444871
   Banks:
   - {fileID: 770363023611065792}
-  IsStream: 0
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 1794
+--- !u!114 &2206924160422657645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ItemMerged_Weapon_2
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ItemMerged_Weapon_2
+  Guid:
+    Data1: -334589233
+    Data2: 1187553279
+    Data3: 2024644997
+    Data4: -1772211389
+  Banks:
+  - {fileID: 2601749525012083909}
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 3000
 --- !u!114 &2533436901088471537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,13 +650,13 @@ MonoBehaviour:
     Data4: -1138942346
   Banks:
   - {fileID: 4442207004037642567}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  MinDistance: 0
+  MaxDistance: 10000
+  Length: 468
 --- !u!114 &2601749525012083909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -562,10 +672,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638662797339861953
+  lastModified: 638663162526513747
   FileSizes:
   - Name: Desktop
-    Value: 5062
+    Value: 147904
   Exists: 1
 --- !u!114 &3830042825779790853
 MonoBehaviour:
@@ -587,13 +697,13 @@ MonoBehaviour:
     Data4: 1354424428
   Banks:
   - {fileID: 2601749525012083909}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 475
 --- !u!114 &4065505261302792121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,13 +751,13 @@ MonoBehaviour:
     Data4: -950694418
   Banks:
   - {fileID: 2601749525012083909}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 378
 --- !u!114 &4175846642160821114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -663,38 +773,11 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Enemies.bank
   Name: Enemies
   StudioPath: bank:/Enemies
-  lastModified: 638662780687927390
+  lastModified: 638663162521041878
   FileSizes:
   - Name: Desktop
-    Value: 2206
+    Value: 257440
   Exists: 1
---- !u!114 &4326652737580244795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_PotionCraft_End
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_PotionCraft_End
-  Guid:
-    Data1: -1498622825
-    Data2: 1216929610
-    Data3: 641039012
-    Data4: -869805628
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &4442207004037642567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,10 +793,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/PC.bank
   Name: PC
   StudioPath: bank:/PC
-  lastModified: 638662780967706291
+  lastModified: 638663162523551484
   FileSizes:
   - Name: Desktop
-    Value: 113536
+    Value: 162016
   Exists: 1
 --- !u!114 &4525332176564503921
 MonoBehaviour:
@@ -762,13 +845,40 @@ MonoBehaviour:
     Data4: 1994579617
   Banks:
   - {fileID: 4442207004037642567}
-  IsStream: 0
-  Is3D: 0
+  IsStream: 1
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 577
+--- !u!114 &6878139118819924563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knight/KN_Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Knight/KN_Footsteps
+  Guid:
+    Data1: -147740287
+    Data2: 1157874208
+    Data3: -1616646239
+    Data4: 929177478
+  Banks:
+  - {fileID: 770363023611065792}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 10000
+  MaxDistance: 10000
+  Length: 1380
 --- !u!114 &7048584187047021021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +894,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638662780966011811
+  lastModified: 638663140365143897
   FileSizes:
   - Name: Desktop
     Value: 3317472
@@ -837,11 +947,11 @@ MonoBehaviour:
   Banks:
   - {fileID: 770363023611065792}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 10000
+  MaxDistance: 10000
   Length: 1596
 --- !u!114 &8022570368911116860
 MonoBehaviour:
@@ -863,64 +973,10 @@ MonoBehaviour:
     Data4: -1884379142
   Banks:
   - {fileID: 4442207004037642567}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
---- !u!114 &8521960842109341661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ButtonHover
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ButtonHover
-  Guid:
-    Data1: 357566168
-    Data2: 1223299389
-    Data3: 223708038
-    Data4: 688969774
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &8833210336326174523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/UI/UI_ItemMerged_Awmor
-  m_EditorClassIdentifier: 
-  Path: event:/UI/UI_ItemMerged_Awmor
-  Guid:
-    Data1: -724150288
-    Data2: 1102955400
-    Data3: -848850289
-    Data4: -1684437237
-  Banks:
-  - {fileID: 2601749525012083909}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
+  Length: 300

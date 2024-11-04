@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001DB6E9BE4D8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001A964249218 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -22,251 +22,319 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Music.bank : mode 02010082
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DAD4E18FC8, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DAD4E18FC8
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Music.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3026816
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 2848
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DAA58E5170
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='GameJam_Silly_Variations', format=5, channels=2, frequency=48000, lengthbytes=3024928, lengthpcm=10518260, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.717839.
-[LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DAD4E18FC8
-[LOG] SoundI::release                          : GameJam_Silly_Variations (000001DAD4E18FC8)
-[LOG] SoundI::release                          :     GameJam_Silly_Variations (000001DAD44BEA18)
-[LOG] SoundI::release                          :     GameJam_Silly_Variations (000001DAD4E1A768)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DAD4E19328, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DAD4E19328
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992138948, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992138948
 [LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DAA58E5170
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ShieldImpact02', format=5, channels=2, frequency=48000, lengthbytes=12384, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.562392.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DAD4E19328
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E311A38, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E311A38
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DB7EC95E60
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ShieldImpact04', format=5, channels=2, frequency=48000, lengthbytes=13440, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.699393.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E311A38
-[LOG] SoundI::release                          : ShieldImpact02 (000001DAD4E19328)
-[LOG] SoundI::release                          :     ShieldImpact02 (000001DA9C006D58)
-[LOG] SoundI::release                          :     ShieldImpact02 (000001DAD4E1A408)
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E314CD8, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E314CD8
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DB7EC95FA0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ShieldImpact03', format=5, channels=2, frequency=48000, lengthbytes=12192, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.698581.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E314CD8
-[LOG] SoundI::release                          : ShieldImpact04 (000001DB6E311A38)
-[LOG] SoundI::release                          :     ShieldImpact04 (000001DA9C0025D8)
-[LOG] SoundI::release                          :     ShieldImpact04 (000001DB6E3120F8)
-[LOG] SoundI::release                          : ShieldImpact03 (000001DB6E314CD8)
-[LOG] SoundI::release                          :     ShieldImpact03 (000001DA9C005018)
-[LOG] SoundI::release                          :     ShieldImpact03 (000001DB6E3158A8)
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E315038, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E315038
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DA9ACDC810
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ShieldImpact01', format=5, channels=2, frequency=48000, lengthbytes=13856, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.573148.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E315038
-[LOG] SoundI::release                          : ShieldImpact01 (000001DB6E315038)
-[LOG] SoundI::release                          :     ShieldImpact01 (000001DA9C0047F8)
-[LOG] SoundI::release                          :     ShieldImpact01 (000001DB6E315DB8)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E313A48, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E313A48
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DAA58E5170
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='PriamosSwordImpact01-003', format=5, channels=2, frequency=48000, lengthbytes=10400, lengthpcm=48000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.618170.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E313A48
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E311A38, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E311A38
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DA9ACDC810
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98AE501C0
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='PriamosSwordImpact01-002', format=5, channels=2, frequency=48000, lengthbytes=9504, lengthpcm=48000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.578080.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E311A38
-[LOG] SoundI::release                          : PriamosSwordImpact01-003 (000001DB6E313A48)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-003 (000001DA9C57B1B8)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-003 (000001DB6E30AE38)
-[LOG] SoundI::release                          : PriamosSwordImpact01-002 (000001DB6E311A38)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-002 (000001DA9C57A4B8)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-002 (000001DB6E3120F8)
+[LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992138948
+[LOG] SoundI::release                          : PriamosSwordImpact01-002 (000001A992138948)
+[LOG] SoundI::release                          :     PriamosSwordImpact01-002 (000001A9915E6DF8)
+[LOG] SoundI::release                          :     PriamosSwordImpact01-002 (000001A9921360C8)
 [LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E3120F8, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E3120F8
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992132E28, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992132E28
 [LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DA9ACDC810
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A99A113610
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 480
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='DrawSwordEvelin', format=5, channels=2, frequency=48000, lengthbytes=50848, lengthpcm=199680, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.249980.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E3120F8
-[LOG] SoundI::release                          : DrawSwordEvelin (000001DB6E3120F8)
-[LOG] SoundI::release                          :     DrawSwordEvelin (000001DA9C0032D8)
-[LOG] SoundI::release                          :     DrawSwordEvelin (000001DB6E312E78)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992132E28
+[LOG] SoundI::release                          : DrawSwordEvelin (000001A992132E28)
+[LOG] SoundI::release                          :     DrawSwordEvelin (000001A98B3CCF58)
+[LOG] SoundI::release                          :     DrawSwordEvelin (000001A992131328)
 [LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E3120F8, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E3120F8
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992130248, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992130248
 [LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DA9ACDC810
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A99A80B500
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='PriamosSwordImpact01-001', format=5, channels=2, frequency=48000, lengthbytes=12448, lengthpcm=48000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.647597.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E3120F8
-[LOG] SoundI::release                          : PriamosSwordImpact01-001 (000001DB6E3120F8)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-001 (000001DA9C007578)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-001 (000001DB6E312E78)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992130248
+[LOG] SoundI::release                          : PriamosSwordImpact01-001 (000001A992130248)
+[LOG] SoundI::release                          :     PriamosSwordImpact01-001 (000001A99B49B268)
+[LOG] SoundI::release                          :     PriamosSwordImpact01-001 (000001A9921314D8)
 [LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E311A38, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E311A38
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A9921334E8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A9921334E8
 [LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DAA58E5170
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98AFEA0F0
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='PriamosSwordImpact01-006', format=5, channels=2, frequency=48000, lengthbytes=11936, lengthpcm=48000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.611657.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E311A38
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='PotionTake_4', format=5, channels=2, frequency=48000, lengthbytes=5760, lengthpcm=20217, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.221117.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A9921334E8
+[LOG] SoundI::release                          : PotionTake_4 (000001A9921334E8)
+[LOG] SoundI::release                          :     PotionTake_4 (000001A99AB35A48)
+[LOG] SoundI::release                          :     PotionTake_4 (000001A992130C68)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001DB6E315398, queue head = 000001DB6E253418, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001DB6E315398
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A9921340B8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A9921340B8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 376736
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 26176
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001DA7537F6A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A990B6C7F0
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='PriamosSwordImpact01-004', format=5, channels=2, frequency=48000, lengthbytes=11648, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.642464.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001DB6E315398
-[LOG] SoundI::release                          : PriamosSwordImpact01-006 (000001DB6E311A38)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-006 (000001DA9C0066D8)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-006 (000001DB6E312E78)
-[LOG] SoundI::release                          : PriamosSwordImpact01-004 (000001DB6E315398)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-004 (000001DA9C0088F8)
-[LOG] SoundI::release                          :     PriamosSwordImpact01-004 (000001DB6E313A48)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
-[LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_1', format=5, channels=2, frequency=48000, lengthbytes=3904, lengthpcm=15651, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.069180.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A9921340B8
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992131D48, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992131D48
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A99B834920
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_7', format=5, channels=2, frequency=48000, lengthbytes=3616, lengthpcm=14347, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.057050.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992131D48
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992134FE8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992134FE8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A99B4E4AE0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_4', format=5, channels=2, frequency=48000, lengthbytes=3424, lengthpcm=12717, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.079108.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992134FE8
+[LOG] SoundI::release                          : Foot_1 (000001A9921340B8)
+[LOG] SoundI::release                          :     Foot_1 (000001A99A4A2898)
+[LOG] SoundI::release                          :     Foot_1 (000001A992132918)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A9921339F8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A9921339F8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98B96DBE0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_2', format=5, channels=2, frequency=48000, lengthbytes=3648, lengthpcm=13695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.084455.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A9921339F8
+[LOG] SoundI::release                          : Foot_7 (000001A992131D48)
+[LOG] SoundI::release                          :     Foot_7 (000001A98B3CE958)
+[LOG] SoundI::release                          :     Foot_7 (000001A992132408)
+[LOG] SoundI::release                          : Foot_4 (000001A992134FE8)
+[LOG] SoundI::release                          :     Foot_4 (000001A9922C2CD8)
+[LOG] SoundI::release                          :     Foot_4 (000001A992132258)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992136428, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992136428
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A9993B94D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_8', format=5, channels=2, frequency=48000, lengthbytes=3520, lengthpcm=13695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.050408.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992136428
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Enemies.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992133BA8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992133BA8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Enemies.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 228704
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 28736
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A9993B9890
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Foot_2', format=5, channels=2, frequency=48000, lengthbytes=3648, lengthpcm=13695, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.084455.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992133BA8
+[LOG] SoundI::release                          : Foot_2 (000001A9921339F8)
+[LOG] SoundI::release                          :     Foot_2 (000001A99080C618)
+[LOG] SoundI::release                          :     Foot_2 (000001A9921305A8)
+[LOG] SoundI::release                          : Foot_2 (000001A992133BA8)
+[LOG] SoundI::release                          :     Foot_2 (000001A988319038)
+[LOG] SoundI::release                          :     Foot_2 (000001A992130AB8)
+[LOG] SoundI::release                          : Foot_8 (000001A992136428)
+[LOG] SoundI::release                          :     Foot_8 (000001A99080C2D8)
+[LOG] SoundI::release                          :     Foot_8 (000001A992130248)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992130AB8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992130AB8
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 000001A992136428, queue head = 000001A9979C0E68, queue count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98AE51480
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Impact_10', format=5, channels=2, frequency=48000, lengthbytes=8000, lengthpcm=46137, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.635576.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992130AB8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992136428
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98AE51AC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ShieldImpact03', format=5, channels=2, frequency=48000, lengthbytes=12192, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.698581.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992136428
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A9921365D8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A9921365D8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A9921365D8
+[LOG] SoundI::release                          : Impact_10 (000001A992130AB8)
+[LOG] SoundI::release                          :     Impact_10 (000001A99080C2D8)
+[LOG] SoundI::release                          :     Impact_10 (000001A9921365D8)
+[LOG] SoundI::release                          : ShieldImpact03 (000001A992136428)
+[LOG] SoundI::release                          :     ShieldImpact03 (000001A99080C138)
+[LOG] SoundI::release                          :     ShieldImpact03 (000001A992134928)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992134778, queue head = 000001A9979C0E68, queue count = 0
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992130FC8, queue head = 000001A9979C0E68, queue count = 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992134778
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98ACC7480
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Knight_BaseAttack02', format=5, channels=2, frequency=48000, lengthbytes=10400, lengthpcm=48000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.292242.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992134778
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992130FC8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98ACC7700
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Hayfork_Swish02', format=5, channels=2, frequency=48000, lengthbytes=5120, lengthpcm=26234, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.051056.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992130FC8
+[LOG] SoundI::release                          : Hayfork_Swish02 (000001A992130FC8)
+[LOG] SoundI::release                          :     Hayfork_Swish02 (000001A99080C2D8)
+[LOG] SoundI::release                          :     Hayfork_Swish02 (000001A992131D48)
+[LOG] SoundI::release                          : Knight_BaseAttack02 (000001A992134778)
+[LOG] SoundI::release                          :     Knight_BaseAttack02 (000001A99080C618)
+[LOG] SoundI::release                          :     Knight_BaseAttack02 (000001A992135D68)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A9921354F8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A9921354F8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98AE51E80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='MetalImpactMassive06', format=5, channels=2, frequency=48000, lengthbytes=13888, lengthpcm=70411, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.470062.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A9921354F8
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A9921305A8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A9921305A8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A9921305A8
+[LOG] SoundI::release                          : MetalImpactMassive06 (000001A9921354F8)
+[LOG] SoundI::release                          :     MetalImpactMassive06 (000001A99080C618)
+[LOG] SoundI::release                          :     MetalImpactMassive06 (000001A9921305A8)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A9921303F8, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A9921303F8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98AE506C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ShieldImpact01', format=5, channels=2, frequency=48000, lengthbytes=13856, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.573148.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A9921303F8
+[LOG] SoundI::release                          : ShieldImpact01 (000001A9921303F8)
+[LOG] SoundI::release                          :     ShieldImpact01 (000001A99080C138)
+[LOG] SoundI::release                          :     ShieldImpact01 (000001A992132768)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Knight.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001A992135D68, queue head = 000001A9979C0E68, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A992135D68
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Knight.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 479904
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 43104
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98AE51E80
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ShieldImpact04', format=5, channels=2, frequency=48000, lengthbytes=13440, lengthpcm=72000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.699393.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A992135D68
+[LOG] SoundI::release                          : ShieldImpact04 (000001A992135D68)
+[LOG] SoundI::release                          :     ShieldImpact04 (000001A99080C2D8)
+[LOG] SoundI::release                          :     ShieldImpact04 (000001A9921325B8)
 [ERR] assert                                   : assertion: 'gSystemInitCount == 0' failed
