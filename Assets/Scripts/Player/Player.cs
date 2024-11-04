@@ -63,6 +63,7 @@ public class Player : MonoBehaviour
                 Empty();
             }
             _inBase = true;
+            _workShop.Near(true);
         }
         if(collision.tag == "Hero" && IsFull)
         {
@@ -79,6 +80,7 @@ public class Player : MonoBehaviour
         if(collision.tag == "Base")
         {
             _inBase = false;
+            _workShop.Near(false);
         }
         if (collision.tag == "Hero")
         {

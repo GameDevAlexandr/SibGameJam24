@@ -10,6 +10,7 @@ public class MergeManager : MonoBehaviour
     [SerializeField] private LayoutGroup _group;
     [SerializeField] private GameObject _workshopPanel;
     [SerializeField] private RectTransform _panelArea;
+    [SerializeField] private GameObject _pickObj;
     private Bounds _dropBounds;
     private void Awake()
     {
@@ -53,5 +54,5 @@ public class MergeManager : MonoBehaviour
         }
     }
     public void OpenPanel() => _workshopPanel.SetActive(true);
-
+    public void Near(bool isNear) => _pickObj.SetActive(isNear);
 }

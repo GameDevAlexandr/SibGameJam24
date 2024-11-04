@@ -11,6 +11,7 @@ public abstract class Character : MonoBehaviour
     [SerializeField] protected float _attackDistance;
     [SerializeField] protected Image _healthBar;
     [SerializeField] protected SkeletonAnimation _animation;
+    [SerializeField] private TextGenerator _tg;
 
     protected int _currHealth;
     private Transform _target;
@@ -28,15 +29,23 @@ public abstract class Character : MonoBehaviour
 
     public virtual void TakeDamage(int damage)
     {
-        damage = (int)(damage * ((float)damage / (damage + _armour)));
-        _currHealth -= damage;
+        if (_currHealth <= 0)
+        {
+            return;
+        }
+        if (damage > 0)
+        {
+            damage = (int)(damage * ((float)damage / (damage + _armour)));
+            _currHealth -= damage;
+        }
         _healthBar.fillAmount = (float)_currHealth / _health;
         _aStrenght = Mathf.Max(0, _aStrenght - damage);
         _animation.AnimationState.SetAnimation(0, "hit", false);
+        _tg.StartFly(damage.ToString(), false);
         if (_currHealth <= 0)
         {
             Death();
-        }
+        }        
     }
     protected virtual void Move(Transform target)
     {

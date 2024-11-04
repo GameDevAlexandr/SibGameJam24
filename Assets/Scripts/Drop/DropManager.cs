@@ -11,6 +11,7 @@ public class DropManager : MonoBehaviour
     [SerializeField] private Transform _maxDropPos;
     [SerializeField] private DropItem[] _enemyDrops;
     [SerializeField] private DropItem[] _groundDrops;
+    [SerializeField] private DropItem _cake;
     [SerializeField] private SpriteRenderer _dropArea;
 
     private List<DropItem> _drops = new List<DropItem>();
@@ -34,6 +35,10 @@ public class DropManager : MonoBehaviour
             {
                 l.Add(a[i]);
             }
+        }
+        if (atEnemy)
+        {
+            l.Add(_cake);
         }
     }
 

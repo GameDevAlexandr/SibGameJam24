@@ -13,5 +13,5 @@ public class DropObject : MonoBehaviour
         Item = item;
         _icon.sprite = item.Icon;
     }
-    public void Find(bool isFind) => _pick.SetActive(isFind);
+    public void Find(bool isFind) => _pick?.SetActive(isFind);
 }

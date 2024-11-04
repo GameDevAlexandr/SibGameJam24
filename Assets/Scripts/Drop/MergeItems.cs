@@ -51,10 +51,10 @@ public class MergeItems : MonoBehaviour, IDragHandler, IDropHandler, IBeginDragH
     public void OnDrop(PointerEventData eventData)
     {
         MergeItems mItem;
-        if (mItem = eventData.pointerDrag.GetComponent<MergeItems>())
+        if (mItem = eventData.pointerDrag.GetComponent<MergeItems>() )
         {
             Debug.Log("Start m");
-            if (Index == mItem.Index)
+            if (Index == mItem.Index && mItem.Item.NextItem != null)
             {
                 Debug.Log("Stop m");
                 Manager.OnDrag(false, Index);

@@ -28,5 +28,9 @@ public class FMSoundManager : MonoBehaviour
             }
         }
     }
+    public void StopAllSound()
+    {
+
+    }
 
 }

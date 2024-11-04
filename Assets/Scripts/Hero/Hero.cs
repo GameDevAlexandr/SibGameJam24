@@ -10,28 +10,51 @@ public class Hero : Character
     public UnityEvent ticEvent = new UnityEvent();
     public static Hero hero;
     public GameObject pic;
+        
     public int Armour { set => _armour = value; }
     public int damageBoost;
     public float SpeedBoost { set { _atkSpeed = _aSpd * value; _moveSpeed = _mSpd * value; } }
-    public float damageMult = 1;    
+    public float damageMult = 1;
+    [SerializeField] private GameObject _finfshPanel;
     [SerializeField] private StatusIcon[] statuses;
     private Enemy _enemy;
     private float _aSpd;
     private float _mSpd;
     private bool _idle;
+    private bool _isDeath;
 
     public void Awake()
     {
         hero = this;
         _aSpd = _atkSpeed;
         _mSpd = _moveSpeed;
+        _animation.AnimationState.Complete += AnimationState_Complete;
     }
+
+    private void AnimationState_Complete(Spine.TrackEntry trackEntry)
+    {
+        if(trackEntry.Animation.Name == "death")
+        {
+            Time.timeScale = 0;
+            _finfshPanel.SetActive(true);
+        }
+    }
+
     override protected void Tic()
     {
+        if (_isDeath)
+        {
+            return;
+        } 
+        Vector2 enmPos = transform.position;
         var enm = eBase.NearEnemy(transform.position);
+        if (enm != null)
+        {
+            enmPos = enm.transform.position;
+        }
         if (_enemy != enm && !_isMove)
         {
-            _enemy = enm;
+            _enemy = enm;            
             Move(_enemy.transform);
             _animation.AnimationState.SetAnimation(0, "walk", true);
             _idle = false;
@@ -43,7 +66,7 @@ public class Hero : Character
         }
         if (_isMove && !_isAttack && !enm.isDestroyed)
         {
-            float dis = Vector2.Distance(_enemy.transform.position, transform.position);
+            float dis = Vector2.Distance(enmPos, transform.position);
             bool flip = _enemy.transform.position.x > transform.position.x;
             _animation.skeleton.ScaleX = flip ? 1 : -1;
             if (Mathf.Abs(dis) <= _attackDistance)
@@ -62,6 +85,10 @@ public class Hero : Character
     }
     protected override void Attack()
     {
+        if (_isDeath)
+        {
+            return;
+        }
         if (!_enemy.isDestroyed)
         {
             _enemy.TakeDamage((int)((_damage+damageBoost)*damageMult));
@@ -79,6 +106,7 @@ public class Hero : Character
     public void Heal(int value)
     {
         _currHealth = Mathf.Min(_health, _currHealth + value);
+        Debug.Log(_currHealth);
         TakeDamage(0);
     }
     public void SetItem(DropItem item)
@@ -95,6 +123,8 @@ public class Hero : Character
     }
     protected override void Death()
     {
+        _isDeath = true;
+        _animation.AnimationState.SetAnimation(0, "death", false);
     }
 
     private StatusIcon GetStatus(Enums.DropType type)
