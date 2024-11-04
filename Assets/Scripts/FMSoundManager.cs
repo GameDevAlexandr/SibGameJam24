@@ -12,10 +12,19 @@ public class FMSoundManager : MonoBehaviour
     {
         public EventReference er;
         public SoundName sName;
+        public bool isState;
+        public FMOD.Studio.EventInstance state;
     }
     private void Awake()
     {
         Sound = this;
+        for (int i = 0; i < _sonuds.Length; i++)
+        {
+            if (_sonuds[i].isState)
+            {
+                _sonuds[i].state = RuntimeManager.CreateInstance(_sonuds[i].er);
+            }
+        }
     }
   
     public void Play(SoundName sName, Vector2 position)
@@ -24,13 +33,37 @@ public class FMSoundManager : MonoBehaviour
         {
             if(_sonuds[i].sName == sName)
             {
-                RuntimeManager.PlayOneShot(_sonuds[i].er, position);
+                if (_sonuds[i].isState)
+                {
+                    _sonuds[i].state.start();
+                    Debug.Log("start steps");
+                }
+                else
+                {
+                    RuntimeManager.PlayOneShot(_sonuds[i].er, position);
+                }
             }
+            
         }
     }
-    public void StopAllSound()
+    public void Play(SoundName sName)
     {
+        Play(sName, transform.position);
+    }
+    public void Stop(SoundName sName)
+    {
+        for (int i = 0; i < _sonuds.Length; i++)
+        {
+            if (_sonuds[i].sName == sName)
+            {
+                if (_sonuds[i].isState)
+                {
+                    _sonuds[i].state.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                    Debug.Log("stop steps");
+                }
+            }
 
+        }
     }
 
 }

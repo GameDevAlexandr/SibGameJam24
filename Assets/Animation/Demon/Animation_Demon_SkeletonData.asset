@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: Animation_Demon_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: be0cbec33946bd646bbc8327bcaf29f0, type: 2}
+  - {fileID: 11400000, guid: bed6aef70d382ec489f12d9e74904247, type: 2}
   scale: 0.007
-  skeletonJSON: {fileID: 4900000, guid: 73cab1b01677fe54bb69010e3fb6c420, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 578e5251414096f488ca694393d0a1f4, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 1
     applyAdditiveMaterial: 1
     additiveMaterials:
     - pageName: Animation_Demon.png
-      material: {fileID: 2100000, guid: 613690256599a474aa4d119767c13c94, type: 2}
+      material: {fileID: 2100000, guid: 191b89fe0c2500e48ae571b584882028, type: 2}
     multiplyMaterials: []
     screenMaterials: []
   skeletonDataModifiers: []

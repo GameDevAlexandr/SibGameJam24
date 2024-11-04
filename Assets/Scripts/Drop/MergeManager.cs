@@ -53,6 +53,6 @@ public class MergeManager : MonoBehaviour
             }
         }
     }
-    public void OpenPanel() => _workshopPanel.SetActive(true);
+    public void OpenPanel(bool isOpen) => _workshopPanel.SetActive(isOpen);
     public void Near(bool isNear) => _pickObj.SetActive(isNear);
 }

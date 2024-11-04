@@ -17,7 +17,8 @@ MonoBehaviour:
   <Power>k__BackingField: 100
   <Strenght>k__BackingField: 0
   <Icon>k__BackingField: {fileID: 21300000, guid: 2cbcfd0e3a8f0ee41be4c79e1373631d, type: 3}
-  <Back>k__BackingField: {fileID: 21300000, guid: 4561e3c8635dc0e459210ea2d82cecdb, type: 3}
+  <Shine>k__BackingField: {fileID: 21300000, guid: 0b9e044fe2cc3194aaa30825b4d837e9, type: 3}
+  <Back>k__BackingField: {fileID: 21300000, guid: 12375bc254159394c9e849aee9fc5644, type: 3}
   <Name>k__BackingField: 
   <Description>k__BackingField: 
   <NextItem>k__BackingField: {fileID: 11400000, guid: 7c3abc6b61970dc46bdf13ce51c113ff, type: 2}

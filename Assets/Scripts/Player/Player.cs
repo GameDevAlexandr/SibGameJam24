@@ -1,5 +1,6 @@
 using Spine.Unity;
 using UnityEngine;
+using static FMSoundManager;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
@@ -26,17 +27,22 @@ public class Player : MonoBehaviour
     }
     private void PlayerMove(Vector2 direction)
     {
-        if(direction != Vector2.zero) _animation.skeleton.ScaleX = direction.x > 0 ? 1 : -1;
+        if (direction != Vector2.zero)
+        {
+            _animation.skeleton.ScaleX = direction.x > 0 ? 1 : -1;
+        }
 
         if(_isRuned && direction == Vector2.zero)
         {
             _animation.AnimationState.SetAnimation(0, "idle", true);
             _isRuned = false;
+            Sound.Play(Enums.SoundName.dogFootStep);
         }
         if(!_isRuned && direction != Vector2.zero)
         {
             _animation.AnimationState.SetAnimation(0, "run", true);
             _isRuned = true;
+            Sound.Stop(Enums.SoundName.dogFootStep);
         }
         _rb.velocity = direction*_speed;
     }
@@ -81,6 +87,7 @@ public class Player : MonoBehaviour
         {
             _inBase = false;
             _workShop.Near(false);
+            _workShop.OpenPanel(false);
         }
         if (collision.tag == "Hero")
         {
@@ -95,10 +102,11 @@ public class Player : MonoBehaviour
             _drop.transform.position = _dropPosition.position;
             _drop.transform.parent = transform;
             _drop.Find(false);
+            Sound.Play(Enums.SoundName.pick);
         }
         if (_inBase)
         {
-            _workShop.OpenPanel();
+            _workShop.OpenPanel(true);
         }
         if (_inHero)
         {
@@ -109,6 +117,7 @@ public class Player : MonoBehaviour
     private void Empty()
     {
         IsFull = false;
+        Destroy(_drop);
         Destroy(_drop.gameObject);
     }
 }

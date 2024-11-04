@@ -13,6 +13,7 @@ public class EnemySpawner : MonoBehaviour
         _area.max = (Vector2)_maxPosition.position;
         _area.min = (Vector2)_minPosition.position;
         StartCoroutine(SpawnCoroutine());
+        Invoke("Spawn", 1f);
     }
 
     private IEnumerator SpawnCoroutine()

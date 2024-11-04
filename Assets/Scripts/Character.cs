@@ -58,8 +58,15 @@ public abstract class Character : MonoBehaviour
         Tic();
         if (_isMove)
         {
-            Vector2 direct = (_target.position - transform.position).normalized;
-            transform.Translate(direct * Time.deltaTime * _moveSpeed);
+            try
+            {
+                Vector2 direct = (_target.position - transform.position).normalized;
+                transform.Translate(direct * Time.deltaTime * _moveSpeed);
+            }
+            catch
+            {
+                return;
+            }
         }
         if (_isAttack)
         {

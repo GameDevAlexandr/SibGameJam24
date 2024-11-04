@@ -89,7 +89,7 @@ namespace Spine.Unity.Examples {
 			return atlasPage;
 		}
 
-		void Start () {
+		 public void Start () {
 			// Initialize slot and attachment references.
 			Initialize(false);
 

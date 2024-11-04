@@ -1,4 +1,5 @@
 using Spine.Unity;
+using Spine.Unity.Examples;
 using UnityEngine;
 using UnityEngine.Events;
 using static EnemyBase;
@@ -15,6 +16,7 @@ public class Hero : Character
     public int damageBoost;
     public float SpeedBoost { set { _atkSpeed = _aSpd * value; _moveSpeed = _mSpd * value; } }
     public float damageMult = 1;
+    [SerializeField] private SpriteAttacher _attacher;
     [SerializeField] private GameObject _finfshPanel;
     [SerializeField] private StatusIcon[] statuses;
     private Enemy _enemy;
@@ -56,6 +58,7 @@ public class Hero : Character
         {
             _enemy = enm;            
             Move(_enemy.transform);
+            Sound.Play(SoundName.knightFootStep);
             _animation.AnimationState.SetAnimation(0, "walk", true);
             _idle = false;
         }
@@ -67,10 +70,11 @@ public class Hero : Character
         if (_isMove && !_isAttack && !enm.isDestroyed)
         {
             float dis = Vector2.Distance(enmPos, transform.position);
-            bool flip = _enemy.transform.position.x > transform.position.x;
+            bool flip = enmPos.x > transform.position.x;
             _animation.skeleton.ScaleX = flip ? 1 : -1;
             if (Mathf.Abs(dis) <= _attackDistance)
-            {                
+            {
+                Sound.Stop(SoundName.knightFootStep);
                 StartAttack();
             }
         }
@@ -137,5 +141,11 @@ public class Hero : Character
             }
         }
         return null;
+    }
+    public void SetWeapon(Sprite weapon)
+    {
+        _attacher.sprite = weapon;
+        _attacher.Start();
+        
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3e938a7b43cf07b4b98907e5110e3cc6
+guid: 4e17a684cfc7986408a6bad45e37c1ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -160,7 +160,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ARM_L
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 282
+        width: 113
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be217c685906ac630800000000000000
+      internalID: 3948074218671248107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ARM_R
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 985
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065f9ce0b08002e70800000000000000
+      internalID: 9088272891619439968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BODY
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 10
+        width: 189
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40c922794a6c6b60800000000000000
+      internalID: 7740678723223535695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CIRCLE
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 441
+        width: 418
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1074d19e13cf8bce0800000000000000
+      internalID: -1389083193749190911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EYE_L
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 274
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a574d9cbb95a610800000000000000
+      internalID: 1631881674386528831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EYE_R
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 872
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 329d6c9912159ca20800000000000000
+      internalID: 3083084624667531555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HEAD
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 839
+        width: 268
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08a142ae42ef98b0800000000000000
+      internalID: -5143143422076278770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEG_L
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1119
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385eedb1f28ba6de0800000000000000
+      internalID: -1339055426718734973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LEG_R
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1125
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64689c41884406d90800000000000000
+      internalID: -7106604860735650234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOUTH
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 903
+        width: 105
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7485fa3958b00ee0800000000000000
+      internalID: -1296833999301933956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHADOW
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 168
+        width: 231
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516c0d7ad98185100800000000000000
+      internalID: 96854457392875029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SHINE
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 484
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8283f873f1d62e8e0800000000000000
+      internalID: -1665648931330115544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STAR
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 10
+        width: 422
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf2a661856b6880800000000000000
+      internalID: -8616681855596168314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: STAR_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 430
+        width: 422
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9a37110f0eedd70800000000000000
+      internalID: 9069934021260323279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shine_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 760
+        width: 324
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e791450846a80d410800000000000000
+      internalID: 1499850840168733054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shine_black
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 517
+        width: 390
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad19fdac3571d6de0800000000000000
+      internalID: -1338387865605795366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -171,7 +507,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ARM_L: 3948074218671248107
+      ARM_R: 9088272891619439968
+      BODY: 7740678723223535695
+      CIRCLE: -1389083193749190911
+      EYE_L: 1631881674386528831
+      EYE_R: 3083084624667531555
+      HEAD: -5143143422076278770
+      LEG_L: -1339055426718734973
+      LEG_R: -7106604860735650234
+      MOUTH: -1296833999301933956
+      SHADOW: 96854457392875029
+      SHINE: -1665648931330115544
+      STAR: -8616681855596168314
+      STAR_2: 9069934021260323279
+      Shine_3: 1499850840168733054
+      Shine_black: -1338387865605795366
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

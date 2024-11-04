@@ -18,7 +18,7 @@ public class StatusIcon : MonoBehaviour
         _item = item;
         _value = _maxValue;
         _effect = item.effect;
-        _icon.sprite = item.Icon;
+        _icon.sprite = item.Icon;        
         UpdateValue(0);
     }
 
@@ -35,7 +35,7 @@ public class StatusIcon : MonoBehaviour
             _effect.OverEffect();
             return;
         }
-        _progress.fillAmount = _value / _maxValue;
+        _progress.fillAmount = 1f- _value / _maxValue;
         return;        
     }
 }
